@@ -37,7 +37,7 @@ export class CdkPipelineStack extends Stack {
         // const deploy = new CdkEBStage(this, 'pre-prod'); 
 
         // For environment with custom AutoScaling group configuration 
-        const deploy = new CdkEBStage(this, 'Pre-Prod', { 
+        const deploy = new CdkEBStage(this, "Pre-Prod", { 
             minSize : "1", 
             maxSize : "2"
         }); 
