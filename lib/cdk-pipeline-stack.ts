@@ -35,6 +35,7 @@ export class CdkPipelineStack extends Stack {
         // deploy beanstalk app 
         // For environment with all default values: 
         // const deploy = new CdkEBStage(this, 'pre-prod'); 
+        // Test comment to trigger deployment
 
         // For environment with custom AutoScaling group configuration 
         const deploy = new CdkEBStage(this, "Pre-Prod", { 
